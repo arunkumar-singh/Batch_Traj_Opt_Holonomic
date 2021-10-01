@@ -26,3 +26,7 @@ The repository has two sets of codes
 2. An implementation of Cross-Entropy Method for benchmarking
 
 Both the implementation reads obstacle data from a mat file. The instaneous positons and velocities of the obstacle are read from the mat file and then the MPC constructs a linear approximation of the obstacle trajectories. For static obstacles, the velocities are zero and all entries in the trajectory of a particular obstacle are same.
+
+Some Nuances of Jax
+
+Jax uses the Just-in-Time Compilation (JIT). Thus, the first iteration of MPC is slower because Jax complies the code in the first call. Subsequently, the MPC runs at real-time speed of 0.04s on RTX 3080 laptop. 
