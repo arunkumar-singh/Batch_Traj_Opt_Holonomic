@@ -32,3 +32,10 @@ Both the implementation reads obstacle data from a mat file. The instaneous posi
 Some Nuances of Jax
 
 Jax uses the Just-in-Time Compilation (JIT). Thus, the first iteration of MPC is slower because Jax complies the code in the first call. Subsequently, the MPC runs at real-time speed of 0.04s on RTX 3080 laptop. 
+
+
+How to Run the files
+1. Navigate to ours_batch_opt folder to run the proposed batch trajectory optimization
+2. A minimal mpc code is presented in main_batch_opt. It runs the MPC for a choosen obstacle data. 
+3. The obstacle configuration can be changed by changing the respective files, as mentioned in main_batch_opt.py
+
