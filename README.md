@@ -38,4 +38,7 @@ How to Run the files
 1. Navigate to ours_batch_opt folder to run the proposed batch trajectory optimization
 2. A minimal mpc code is presented in main_batch_opt. It runs the MPC for a choosen obstacle data. 
 3. The obstacle configuration can be changed by changing the respective files, as mentioned in main_batch_opt.py
+4. The main_batch_opt_runall.py runs all the configurations for particular benchmark and stores the results in the form of mat file that can be analyzed latter for computing the success-rate, tracking efficiency, etc.
+
+
 
