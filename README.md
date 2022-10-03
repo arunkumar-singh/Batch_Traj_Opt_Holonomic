@@ -1,5 +1,5 @@
 # Batch_Traj_Opt_Holonomic
-Repository associated with our ACC 2023 submission. Preprint link will appear by soon.
+Repository associated with our ACC 2023 submission "GPU Accelerated Batch Trajectory Optimization for Autonomous Navigation". Preprint link will appear by soon.
 
 
 
