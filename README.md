@@ -1,9 +1,6 @@
 # Batch_Traj_Opt_Holonomic
-Repository associated with our ICRA 2022 submission. Codes and Preprints will appear by 5th Oct. 2021 (A slight delay from the original schedule)
+Repository associated with our ACC 2023 submission. Preprint link will appear by soon.
 
-Update: Ours batch optimization uploaded. CEM implementation coming soon.
-
-Arxiv Pre-Print https://arxiv.org/abs/2109.13030
 
 
 Contacts: Arun Kumar Singh (aks1812@gmail.com), Fatemeh Rastgar (fatemeh@ut.ee)
